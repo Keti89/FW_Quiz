@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quiz.fw_quiz"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".FirstPages"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu" android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.quiz.fw_quiz.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       <activity android:name="From_12_to_24_months"></activity>
+       <activity android:name="From_24_to_32_months"></activity>
+       <activity android:name="From_3_to_5_years"></activity>
+       <activity android:name="Colors"></activity>
+       <activity android:name="Numbers"></activity>
+       <activity android:name="Result"></activity>
+       <activity android:name="Result1"></activity>
+       <activity android:name="Result2"></activity>
+       <activity android:name="Result3"></activity>
+       <activity android:name="Result4"></activity>
+        
+    </application>
+
+</manifest>
